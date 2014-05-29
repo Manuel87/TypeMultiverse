@@ -5,7 +5,8 @@ This is a proposal extending the well known Noordzij Cube (with three dimensions
 This visualisation shows an example with about 16 dimensions/axes 
 ![Multiverse Root-Method Interpolation Interface](Interpolation-Root-Method_Multiverse-Structure-Interface.png)
 
-Each Point can represent either a:<br />
+Each Point represents either a …
+---
 • Master (editable/already edited Instance, any other/extern compatible design …) <br />
 • Instance (a possiblity represented by any point in the design-space multiverse ;)<br />
 • Parameter/Effect/Filter/Algorithm (a designed and engineered formal modifcation, using data from the Masters/Instances + other (user) inputs. (e.g. Path-Offset,Slant, Cursivy, box-shadow, Tension, RMX-Tools, …)
@@ -14,7 +15,8 @@ Each Point can represent either a:<br />
 The main Root-Point represents a user defined default setup, which can be either a Master or an Instance. All other Points in the system are reffering to the Root-Point. This not only makes it much easier to grasp, suddenly the actual calculations  e.g. for an interpolation are getting much easier. (ToDo: adding an calculation example)
 
 
-The actual technique is irrelevant! It could be:<br />
+The actual technique is irrelevant! It could be …
+----
 • Standard linear vector calculation (Interpoaltion)<br />
 (restrictions are made quite clear here: http://partners.adobe.com/public/developer/en/font/5091.Design_MM_Fonts.pdf (p.12-17) <br />
 • Elaborated vector calculation (not seen yet ^^)<br />
@@ -29,26 +31,39 @@ The actual technique is irrelevant! It could be:<br />
 No matter what input/output format (open/proprietary): Postscript Type 1, MM, …, OTF, …, UFO3, Glyphs, VFB, Metafont, Prototypo,Knoths Typy, …) 
 
 
-
-
 -------
+
 
 A more basic visualisation:<br />
 ![Interpolation Interface](Interpolation-Root-Method_Visualisation.png)
 
+
+-----------
+-----------
+-----------
+
+
+
+And some more sketches for another interface
+----
 Sliders<br />
 ![Interpolation Interface](Interpolation-Root-Method_Slider-Interface-Sketch.png)
 
------------
 
-And some more sketches for another interface (specific example is inspired by Tim Ahrens RMX Scaler):<br />
+This specific example is inspired by Tim Ahrens RMX Scaler:<br />
 ![Interpolation Interface](InterpolationInterface_02.png) 
 
 
-This Example uses a very basic interpolation method (no Root-Method) interpolation, wich makes it really complicated if you have more than two or three masters:<br />
+
+Less suitable interpolation technique 
+----
+This Example uses a more basic interpolation method/calculation (no Root-Method), wich makes it quite complicated if you have more than three masters:<br />
 ![Interpolation Interface](InterpolationInterface_01.png)<br />
-If you leave the parameter thing aside the ›Master-Mode‹ is technically really simple to implement… the hardest thing is to code the interface for it ;) 
-(even though simple ›parameters‹ as spacing, kerning, x-Interpolation, y-Interpolation would be quite easy to implement as well) 
+The script doing the calculation you find in this repository. (for Glyphs)
+(even though simple ›parameters‹ as spacing, kerning, x-Interpolation, y-Interpolation wouldn’t be that hard… this is not implemented there) 
+
+// TODO: upload another script with the ›root-method‹
+
 
 
 # License

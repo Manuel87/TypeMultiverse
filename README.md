@@ -28,7 +28,32 @@ The actual technique is irrelevant! It could be …
 • A combination of all :D (that would be another project)<br />
 • Or just drawing it, using beziers or a penci!, etc. <br />
 
-No matter what input/output format (open/proprietary): Postscript Type 1, MM, …, OTF, …, UFO3, Glyphs, VFB, Metafont, Prototypo,Knoths Typy, …) 
+No matter what input/output format (open/proprietary): Postscript Type 1, MM, …, OTF, …, UFO3, Glyphs, VFB, Metafont, Prototypo,Knoths Typy, …) — sure, the more it offers the better…
+
+
+Math for Interpolation
+---
+The Basic Math of an Interpolation looks like that:
+
+I = M1·a + M2·b + M3·c .. n·M[N] <br />
+and the sum of all the factors (a, b, c .. n) equals 100%.
+
+The above description is from: https://github.com/metapolator/metapolator/wiki/metapolation#the-math
+
+-----
+And here an example to extend that a bit:
+
+Actually the math for an ›root interpolation‹ is not any different from an basic interpolation between only two masters: <br />
+I = M1·0% + M2·100% (basic) = M1·100%-100% + M2·100% = M1·a-b + M2·b (M1 = root)  <br />
+
+or three/more:  <br />
+I = M1·a-b-c-… + M2·b + M3·c + … <br />
+if b and c is set to 100%, M2 and M3 will get applied in full extend
+at least if you think of  M2 and M3 as changes made to M1. 
+
+So you only add the changes rather than adding or averaging everything. 
+And the 100% rule for the factors isn’t touched by that.
+
 
 
 -------

@@ -17,9 +17,9 @@ The main Root-Point represents a user defined default setup, which can be either
 
 The actual technique is irrelevant! It could be …
 ----
-• Standard linear vector calculation (Interpoaltion)<br />
+• Standard linear vector calculation (Interpolation)<br />
 (restrictions are made quite clear here: http://partners.adobe.com/public/developer/en/font/5091.Design_MM_Fonts.pdf (p.12-17) <br />
-• Elaborated vector calculation (not seen yet ^^)<br />
+• Elaborated vector calculation, only eliminating the interpolation restrictions (not seen yet … ?)<br />
 • Kalliculator calculations <br />
 • Metafont calculations (Metapolation)<br />
 • Prototypo calculations<br />

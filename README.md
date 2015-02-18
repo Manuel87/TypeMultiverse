@@ -18,18 +18,21 @@ The main Root-Point represents a user defined default setup, which can be either
 The actual technique is irrelevant! It could be …
 ----
 • Standard linear vector calculation (Interpolation)<br />
-(restrictions are made quite clear here: http://partners.adobe.com/public/developer/en/font/5091.Design_MM_Fonts.pdf (p.12-17) <br />
-• Elaborated vector calculation, only eliminating the interpolation restrictions (not seen yet … ?)<br />
+(restrictions like actual rotation of forms,… are made quite clear here: http://partners.adobe.com/public/developer/en/font/5091.Design_MM_Fonts.pdf (p.12-17) <br />
+• Elaborated vector calculation, only eliminating the interpolation restrictions (not seen yet … e.g. adding a visual interpolation path similar to animation paths in aftereffects…)<br />
 • Kalliculator calculations <br />
 • Metafont calculations (Metapolation)<br />
 • Prototypo calculations<br />
 • Font Chamelion calculations :)<br />
 • …<br />
-• A combination of all :D (that would be another project)<br />
-• Or just drawing it, using beziers or a penci!, etc. <br />
+• A combination of all :D (is Metapolator actually trying that?)<br />
+• Or just sketching it, using beziers or a penci!, etc. <br />
 
 No matter what input/output format (open/proprietary): Postscript Type 1, MM, …, OTF, …, UFO3, Glyphs, VFB, Metafont, Prototypo,Knoths Typy, …) — sure, the more it offers the better…
 
+Working Example (Linear Interpolation / Rudimentary Interface)
+---
+https://vimeo.com/118806744
 
 Math for Interpolation
 ---

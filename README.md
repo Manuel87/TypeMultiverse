@@ -5,6 +5,10 @@ This is a proposal extending the well known Noordzij Cube (with three dimensions
 This visualisation shows an example with about 16 dimensions/axes 
 ![Multiverse Root-Method Interpolation Interface](Interpolation-Root-Method_Multiverse-Structure-Interface.png)
 
+Working Example (Linear Interpolation / Rudimentary Interface)
+---
+https://vimeo.com/118806744
+
 Each Point represents either a …
 ---
 • Master (editable/already edited Instance, any other/extern compatible design …) <br />
@@ -30,9 +34,6 @@ The actual technique is irrelevant! It could be …
 
 No matter what input/output format (open/proprietary): Postscript Type 1, MM, …, OTF, …, UFO3, Glyphs, VFB, Metafont, Prototypo,Knoths Typy, …) — sure, the more it offers the better…
 
-Working Example (Linear Interpolation / Rudimentary Interface)
----
-https://vimeo.com/118806744
 
 Math for Interpolation
 ---

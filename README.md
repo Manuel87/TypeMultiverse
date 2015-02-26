@@ -7,6 +7,7 @@ This visualisation shows an example with about 16 dimensions/axes
 
 Working Example (Linear Interpolation / Rudimentary Interface)
 ---
+![Working Example Vimeo Screenshot](vimeo_screenshot.png)
 https://vimeo.com/118806744
 
 Each Point represents either a …
